@@ -1,17 +1,169 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Famral Stock Photos, Music & Design Assets</title>
-    <link rel="icon" type="image/x-icon" href="https://www.famral.com/favicon.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Photos, Stock Photography &amp; Royalty-Free Images | Famral Stock</title>
+    <link rel="icon" type="image/x-icon" href="https://www.famral.com/favicon.png" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LP0TSYCY56"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LP0TSYCY56');
+    </script>
+
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #f1f1f1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 0px;
+            box-shadow: 0 0 10px rgba(83, 83, 83, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0px;
+            margin-bottom: 10px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #707070;
+        }
+
+        .prod-button {
+            background-color: #ffffff;
+            color: #003bbb;
+            padding: 8px 10px 8px 2px;
+            text-decoration: none;
+        }
+
+        .prod-button:hover {
+            background-color: #e7f2ff;
+            color: #003bbb;
+            padding: 8px 10px 8px 2px;
+            text-decoration: none;
+        }
+
+        .prod-button:focus {
+            background-color: #ffffff;
+            color: #003bbb;
+            padding: 8px 10px 8px 2px;
+            text-decoration: none;
+            border: dashed 1px black;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            color: #7e7e7e;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body>
-<br>
-<a href="https://stock.famral.com/photos" target="_self" style="color: rgb(0, 17, 255); background-color: rgb(209, 255, 241);">Stock Photos</a><br><br>
-  <a href="https://stock.famral.com/music" target="_self" style="color: rgb(0, 17, 255); background-color: #b3ff00;">Stock Music</a><br><br>
-    <a href="https://stock.famral.com/icons" target="_self" style="color: rgb(0, 17, 255); background-color: #b3ff00;">Free Icons</a><br><br>
-  <a href="https://useoftools.com/" target="_self" style="color: rgb(0, 17, 255); background-color: rgb(209, 255, 241);">Online Tools</a><br><br>
-<br>
+
+    <header>
+        <div class="container">
+            <img src="./logo.png" alt="Famral" style="height: 24px;">
+        </div>
+    </header>
+
+    <main>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="apps-thumb.png" alt="Product 1">
+                <h2>Stock Photos</h2>
+                <p>Free stock photos that can be searched and downloaded instantly.</p>
+                <a href="https://stock.famral.com/photos" class="prod-button">Stock Photos</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="apps-thumb.png" alt="Product 2">
+                <h2>Free Icons</h2>
+                <p>250+ free beautiful & highly customizable icons for you.</p>
+                <a href="https://stock.famral.com/icons" class="prod-button">Free Icons</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="apps-thumb.png" alt="Product 2">
+                <h2>Stock Music</h2>
+                <p>Most loved & trusted free stock music library on the internet.</p>
+                <a href="https://stock.famral.com/music" class="prod-button">Free Music</a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="apps-thumb.png" alt="Product 2">
+                <h2>Use Of Tools</h2>
+                <p>Collection of free online tools for developers, editors & content writers.</p>
+                <a href="https://useoftools.com/?utm_source=fstock&utm_medium=organic" target="_blank"
+                    class="prod-button"> Online Tools</a>
+            </div>
+
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Famral. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
