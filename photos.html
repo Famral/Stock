@@ -1,57 +1,113 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Famral Stock: Free Stock Photos, Royalty Free Stock Images & Copyright Free Pictures</title>
-    <link rel="icon" type="image/x-icon" href="https://www.famral.com/favicon.png" />
-    <link rel="stylesheet" href="photos-style.css">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Stock Photos, Royalty Free Stock Images & Copyright Free Pictures</title>
+    <link rel="icon" type="image/x-icon" href="https://www.famral.com/favicon.png" />
+    <link rel="stylesheet" href="https://stock.famral.com/photos-style.css">
+    <link rel="stylesheet" href="https://www.famral.com/style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <script src="photos-script.js" defer></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    <script src="https://www.famral.com/script.js" defer></script>
+    <script src="https://stock.famral.com/photos-script.js" defer></script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP0TSYCY56"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-LP0TSYCY56');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LP0TSYCY56"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  </head>
-  <body>
+        gtag('config', 'G-LP0TSYCY56');
+    </script>
+
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            color: #7e7e7e;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+  <!-- partial:index.partial.html -->
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-1.5x"></i>
+  </div>
+
+    <div class="container">
+        <!-- Nav -->
+        <nav class="main-nav">
+            <img src="./logo.png" alt="Famral" class="logo">
+
+            <ul class="main-menu">
+                <li><a href="https://stock.famral.com">Home</a></li>
+            </ul>
+
+            <ul class="right-menu">
+                <li>
+                    <a href="https://www.famral.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">&lt;!--!  Famral Icons Free 1.00 by @atisalab License - https://icons.famral.com/license/ (Icons: CC BY 4.0) Copyright 2021 Famral Icons --&gt;<polyline points="2 10 12 2 22 10"></polyline><polyline points="4 8.5 4 22 20 22 20 8.5" stroke-linecap="round"></polyline></svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <div class="lightbox">
-      <div class="wrapper">
-        <header>
-          <div class="photographer">
-            <i class="uil uil-camera"></i>
-            <span></span>
-          </div>
-          <div class="buttons">
-            <i class="uil uil-import"></i>
-            <i class="close-icon uil uil-times"></i>
-          </div>
-        </header>
-        <div class="preview-img">
-          <div class="img"><img src="" alt="preview-img"></div>
+        <div class="wrapper">
+            <header>
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="uil uil-import"></i>
+                    <i class="close-icon uil uil-times"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img"><img src="" alt="preview-img"></div>
+            </div>
         </div>
-      </div>
     </div>
     <section class="search">
-      <img src="./photos-search.jpg" alt="search-img">
-      <div class="content">
-        <h1>Stock Photos</h1>
-        <p>Search and download copyright-free photos & royalty-free images</p>
-        <div class="search-box">
-          <i class="uil uil-search"></i>
-          <input type="text" placeholder="Search photos">
+        <img src="https://stock.famral.com/photos-search.jpg" alt="search-img">
+        <div class="content">
+            <h1>Stock Photos</h1>
+            <p>Search and download copyright-free photos & royalty-free images</p>
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search photos">
+            </div>
         </div>
-      </div>
     </section>
     <section class="gallery">
-      <ul class="images"></ul>
-      <button class="load-more">Load More</button>
+        <ul class="images"></ul>
+        <button class="load-more">Load More</button>
     </section>
-  </body>
+
+
+    <br>
+
+
+    <footer>
+        <p>&copy; 2024 Famral. All rights reserved.</p>
+    </footer>
+
+</body>
+
 </html>
