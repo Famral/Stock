@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Famral Stock</title
+    <link rel="icon" type="image/png" href="https://www.famral.com/favicon.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #f00;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #f00;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      background: #f2f2f2;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      padding: 0.75rem 2rem;
+      background: #f00;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #c00;
+    }
+
+    /* Cards Section */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f8f8f8;
+      border-top: 1px solid #ddd;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Famral Stock</div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="https://stock.famral.com/images">Photos</a></li>
+      <li><a href="https://stock.famral.com/emoji">Emoji</a></li>
+      <li><a href="https://www.famral.com/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Creativity for All</h1>
+      <p>Discover Famral's powerful tools to bring your ideas to life — from free creative assets to online tools and more.</p>
+    </div>
+    <!-- Placeholder for hero image -->
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/400x300" alt="Creative banner">
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards">
+    <div class="card">
+      <h3>Photos</h3>
+      <p>Edit and design amazing graphics, photos, and art with industry-standard tools.</p>
+    </div>
+    <div class="card">
+      <h3>Emoji</h3>
+      <p>Create vector illustrations, logos, icons, and more with precision tools.</p>
+    </div>
+    <div class="card">
+      <h3>Icons</h3>
+      <p>Edit video content professionally with Adobe’s top-tier video editing software.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Famral. All rights reserved.
+  </footer>
+
+</body>
+</html>
